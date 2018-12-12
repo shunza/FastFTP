@@ -2,8 +2,9 @@ package fast
 
 // Config fast ftp config.
 type Config struct {
-	Address string
-	User    string
+	Address  string
+	User     string
+	BuffSize string
 }
 
 // Fast fast ftp struct.
